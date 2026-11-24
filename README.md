@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Abdul Shaikh — Developer Portfolio
 
-## Getting Started
+A personal portfolio website showcasing my projects, technical skills, and journey as an aspiring Full Stack Developer.
 
-First, run the development server:
+Built with **Next.js, TypeScript, and Tailwind CSS**, featuring a warm cream-and-brown visual identity with a dark mode option.
+
+## ✨ Features
+
+- **Personal Introduction** — About me, developer profile, and contact information.
+- **Projects Showcase** — Highlights my development projects with descriptions, technology stacks, GitHub repositories, and demo links.
+- **Technical Skills** — Displays the technologies and tools I work with.
+- **Light & Dark Theme** — Switch between warm cream/brown light mode and dark coffee mode.
+- **Theme Persistence** — Remembers the selected theme using localStorage.
+- **Responsive Design** — Optimized for desktop, tablet, and mobile screens.
+- **Contact & Social Links** — Connect with me through email, GitHub, and LinkedIn.
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js | React framework |
+| React | UI development |
+| TypeScript | Type-safe development |
+| Tailwind CSS | Styling setup |
+| CSS | Custom styling and themes |
+| Next.js Image | Image optimization |
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have installed:
+
+- Node.js
+- npm
+- Git
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Abdulajij427/abdul-portfolio.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd abdul-portfolio
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+abdul-portfolio/
+│
+├── app/
+│   ├── page.tsx
+│   ├── layout.tsx
+│   └── globals.css
+│
+├── public/
+│   ├── abdul.jpg
+│   ├── nightcode.png
+│   ├── cocanvas.png
+│   └── chat-app.png
+│
+├── package.json
+├── tsconfig.json
+└── README.md
+```
 
-## Learn More
+## 💻 Featured Projects
 
-To learn more about Next.js, take a look at the following resources:
+### 1. Nightcode
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+An AI-powered CLI coding assistant and coding harness.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Build Mode for creating, reading, updating, and deleting files and folders.
+- Plan Mode for asking questions, inspecting files, and debugging.
+- Google OAuth authentication.
+- Token-based authentication.
 
-## Deploy on Vercel
+**Tech Stack:** TypeScript, Node.js, React, OpenTUI, Express, Prisma, PostgreSQL.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [GitHub Repository](https://github.com/Abdulajij427/NightCode)
+- [Watch Demo](https://www.youtube.com/watch?v=Tcd3Eo0E4-Q)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 2. CoCanvas
+
+A real-time collaborative whiteboard where multiple users can draw together in shared rooms.
+
+**Tech Stack:** Next.js, TypeScript, Tailwind CSS, Node.js, Express.js, WebSocket, JWT, bcrypt, Turborepo.
+
+- [GitHub Repository](https://github.com/Abdulajij427/CoCanvas)
+- [Watch Demo](https://youtu.be/Nh319q9fVec)
+
+### 3. Real-time Chat Application
+
+A real-time messaging application supporting multiple users and chat rooms using WebSocket communication.
+
+**Tech Stack:** React, TypeScript, Node.js, WebSocket, JWT, bcrypt.
+
+- [GitHub Repository](https://github.com/Abdulajij427/basic-chat-app)
+
+## 📬 Contact
+
+**Abdul Shaikh**
+
+- Email: [abdulajij427@gmail.com](mailto:abdulajij427@gmail.com)
+- GitHub: [Abdulajij427](https://github.com/Abdulajij427)
+- LinkedIn: [Abdul Shaikh](https://www.linkedin.com/in/abdul-shaikh786)
+
+---
+
+⭐ If you like this portfolio, feel free to explore my repositories!
+
+**Designed and developed by Abdul Shaikh.**
