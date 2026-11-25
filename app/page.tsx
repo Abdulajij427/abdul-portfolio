@@ -253,12 +253,7 @@ export default function Home() {
               from the ground up.
             </p>
 
-            <p>
-              My interests include full-stack development, backend
-              engineering, real-time communication and AI-powered developer
-              tools. I enjoy learning new technologies by building practical
-              projects.
-            </p>
+            
 
             <a className="text-link" href="#projects">
               Explore my projects <ArrowUpRight />
